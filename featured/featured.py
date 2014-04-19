@@ -23,4 +23,4 @@ def process_feature(article_generator, metadata):
 
 
 def register():
-    signals.article_generate_context.connect(process_feature)
+    signals.article_generator_context.connect(process_feature)

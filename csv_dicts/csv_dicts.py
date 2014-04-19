@@ -45,4 +45,4 @@ def csv_parse(generator):
 
 
 def register():
-    signals.pages_generator_init.connect(csv_parse)
+    signals.page_generator_init.connect(csv_parse)
